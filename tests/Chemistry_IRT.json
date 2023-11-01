@@ -1,0 +1,15 @@
+{
+    "name": "Chemistry_IRT",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Chemistry_IRT.txt"
+    ],
+    "input_files": [
+        "Chemistry_IRT.txt",
+        "inputdata/TOPAS-DefaultReactions.txt"
+    ],
+    "output_files": {
+        "Chemistry_IRT.phsp": "default"
+    }
+}

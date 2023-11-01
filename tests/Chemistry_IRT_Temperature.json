@@ -1,0 +1,15 @@
+{
+    "name": "Chemistry_IRT_Temperature",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Chemistry_IRT_Temperature.txt"
+    ],
+    "input_files": [
+        "Chemistry_IRT_Temperature.txt",
+        "inputdata/TOPASDefaultReactionsLaVerne.txt"
+    ],
+    "output_files": {
+        "Chemistry_IRT_Temperature.phsp": "default"
+    }
+}
