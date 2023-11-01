@@ -1,0 +1,15 @@
+{
+    "name": "Geometry_CharltonDNA",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_CharltonDNA.txt"
+    ],
+    "input_files": [
+        "Geometry_CharltonDNA.txt",
+        "inputdata/DNAScorerStepByStep.txt"
+    ],
+    "output_files": {
+        "Geometry_CharltonDNA.csv": "default"
+    }
+}

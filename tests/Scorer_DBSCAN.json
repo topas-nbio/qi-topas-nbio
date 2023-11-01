@@ -1,0 +1,14 @@
+{
+    "name": "Scorer_DBSCAN",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Scorer_DBSCAN.txt"
+    ],
+    "input_files": [
+        "Scorer_DBSCAN.txt"
+    ],
+    "output_files": {
+        "Scorer_DBSCAN.phsp": "default"
+    }
+}

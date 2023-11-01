@@ -1,0 +1,14 @@
+{
+    "name": "Geometry_SphericalCell",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_SphericalCell.txt"
+    ],
+    "input_files": [
+        "Geometry_SphericalCell.txt"
+    ],
+    "output_files": {
+        "Geometry_SphericalCell.phsp": "default"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Geometry_CircularPlasmid",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_CircularPlasmid.txt"
+    ],
+    "input_files": [
+        "Geometry_CircularPlasmid.txt",
+        "inputdata/DNAScorerStepByStep.txt"
+    ],
+    "output_files": {
+        "Geometry_CircularPlasmid.phsp": "default"
+    }
+}

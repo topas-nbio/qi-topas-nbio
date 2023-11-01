@@ -1,0 +1,15 @@
+{
+    "name": "Chemistry_ActiveChemistryDefault",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Chemistry_ActiveChemistryDefault.txt"
+    ],
+    "input_files": [
+        "Chemistry_ActiveChemistryDefault.txt",
+        "inputdata/TOPASChemistry.txt"
+    ],
+    "output_files": {
+        "Chemistry_ActiveChemistryDefault.phsp": "default"
+    }
+}

@@ -1,0 +1,62 @@
+#
+# This example display the track of chemistry species.
+# The tracks can be accesed by the scorer manager
+#
+Ph/Default/Modules = 2 "g4em-dna" "TsEmDNAChemistry"
+
+d:Ge/World/HLX= 16 nm
+d:Ge/World/HLY= 16 nm
+d:Ge/World/HLZ= 81 nm
+s:Ge/World/Material ="G4_WATER"
+b:Ge/World/Invisible = "True"
+
+s:Ge/Segment/Parent = "World"
+s:Ge/Segment/Type   = "TsCylinder"
+s:Ge/Segment/Material = "G4_WATER"
+s:Ge/Segment/Color    = "magenta"
+d:Ge/Segment/HL       = 80.5 nm
+d:Ge/Segment/RMax     = 15.0 nm
+
+# Set the parameters to configure chemistry from TOPASChemistry.txt
+includeFile = inputdata/TOPASChemistry.txt   # Alternatively TOPASChemistry_Extended.txt can be used.
+s:Ch/ChemistryName = "TOPASChemistry"
+# This gives access of the hits with the scoring manager
+b:Ch/TOPASChemistry/ChemicalStageTransportActive = "True"
+# Chemical stage will finish at 100 ns
+d:Ch/TOPASChemistry/ChemicalStageTimeEnd = 100 ns
+
+# Source
+d:So/Demo/BeamEnergy = 1 MeV
+u:So/Demo/BeamEnergySpread = 0
+s:So/Demo/BeamParticle = "proton"
+s:So/Demo/BeamPositionDistribution = "None"
+i:So/Demo/NumberOfHistoriesInRun = 1
+
+d:Ge/BeamPosition/TransZ = -1.0 * Ge/Segment/HL nm 
+d:Ge/BeamPosition/RotX = 0 deg
+
+u:perCent = 1.
+s:Sc/GValueInTarget/Quantity = "TsSBSGValue" 
+s:Sc/GValueInTarget/Component = "Segment"
+s:Sc/GValueInTarget/IfOutputFileAlreadyExists = "Overwrite"
+d:Sc/GValueInTarget/KillPrimaryIfEnergyLossExceeds = So/Demo/BeamEnergy keV * perCent
+d:Sc/GValueInTarget/AbortEventIfPrimaryEnergyLossExceeds = 1.01 * Sc/GValueInTarget/KillPrimaryIfEnergyLossExceeds keV 
+d:Sc/GValueInTarget/KillPrimaryBasedOnTrackLength = 5 um
+# Record time, do not confuse with Time features.
+s:Sc/GValueInTarget/OutputType = "ascii" # or root
+s:Sc/GValueInTarget/OutputFile = "Chemistry_ActiveChemistryRevised"
+dv:Sc/GValueInTarget/TimeToRecord = 20 1.00000e0 2.06913e0 4.28133e0 8.85866e0
+                                       1.83298e1 3.79268e1 7.84759e1 1.62377e2
+                                       3.35981e2 6.95192e2 1.43844e3 2.97634e3
+                                       6.15847e3 1.27427e4 2.63664e4 5.45559e4
+                                       1.12883e5 2.33571e5 4.83292e5 9.99999e5 ps
+
+
+i:Ts/ChemistryVerbosity = 1
+
+i:Ts/ShowHistoryCountAtInterval = 1 
+i:Ts/NumberOfThreads = 1
+b:Ts/ShowCPUTime = "True"
+b:Ts/PauseBeforeQuit = "False"
+i:Ts/Seed = 1
+

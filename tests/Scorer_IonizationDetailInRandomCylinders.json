@@ -1,0 +1,15 @@
+{
+    "name": "Scorer_IonizationDetailInRandomCylinders",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Scorer_IonizationDetailInRandomCylinders.txt"
+    ],
+    "input_files": [
+        "Scorer_IonizationDetailInRandomCylinders.txt",
+        "inputdata/randomCylinders_position_nm_rotation_deg.xyz"
+    ],
+    "output_files": {
+        "Scorer_IonizationDetailInRandomCylinders.phsp": "default"
+    }
+}

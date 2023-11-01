@@ -1,0 +1,14 @@
+{
+    "name": "Physics_ModelPerRegion",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Physics_ModelPerRegion.txt"
+    ],
+    "input_files": [
+        "Physics_ModelPerRegion.txt"
+    ],
+    "output_files": {
+        "Physics_ModelPerRegion.csv": "default"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Chemistry_RemoveChemicalSpeciesInVolume",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Chemistry_RemoveChemicalSpeciesInVolume.txt"
+    ],
+    "input_files": [
+        "Chemistry_RemoveChemicalSpeciesInVolume.txt",
+        "inputdata/TOPASChemistry.txt"
+    ],
+    "output_files": {
+        "Chemistry_RemoveChemicalSpeciesInVolume.phsp": "default"
+    }
+}

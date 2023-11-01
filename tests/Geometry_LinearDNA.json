@@ -1,0 +1,15 @@
+{
+    "name": "Geometry_LinearDNA",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_LinearDNA.txt"
+    ],
+    "input_files": [
+        "Geometry_LinearDNA.txt",
+        "inputdata/DNAScorerStepByStep.txt"
+    ],
+    "output_files": {
+        "Geometry_LinearDNA.phsp": "default"
+    }
+}

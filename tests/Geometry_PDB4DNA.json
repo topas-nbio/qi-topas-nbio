@@ -1,0 +1,15 @@
+{
+    "name": "Geometry_PDB4DNA",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_PDB4DNA.txt"
+    ],
+    "input_files": [
+        "Geometry_PDB4DNA.txt",
+        "inputdata/1ZBB.pdb"
+    ],
+    "output_files": {
+        "Geometry_PDB4DNA.root": "default"
+    }
+}

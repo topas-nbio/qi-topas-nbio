@@ -1,0 +1,15 @@
+{
+    "name": "Chemistry_ActiveChemistryExtended",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Chemistry_ActiveChemistryExtended.txt"
+    ],
+    "input_files": [
+        "Chemistry_ActiveChemistryExtended.txt",
+        "inputdata/TOPASChemistry_Extended.txt"
+    ],
+    "output_files": {
+        "Chemistry_ActiveChemistryExtended.phsp": "default"
+    }
+}
