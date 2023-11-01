@@ -10,6 +10,6 @@
         "inputdata/DNAScorerStepByStep.txt"
     ],
     "output_files": {
-        "Geometry_CharltonDNA.csv": "default"
+        "Geometry_CharltonDNA_sdd.txt": "default"
     }
 }

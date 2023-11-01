@@ -10,6 +10,6 @@
         "inputdata/DNAScorerStepByStep.txt"
     ],
     "output_files": {
-        "Geometry_LinearDNA.phsp": "default"
+        "Geometry_LinearDNA_sdd.txt": "default"
     }
 }
