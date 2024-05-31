@@ -7,6 +7,7 @@ i:Ts/ShowHistoryCountAtInterval = 10
 i:Ts/MaxInterruptedHistories  = So/Demo/NumberOfHistoriesInRun
 Ts/NumberOfThreads = 1
 b:Ts/ShowCPUTime = "True"
+i:Ts/Seed = 1
 
 ##########################
 ### Physics & Chemistry ##

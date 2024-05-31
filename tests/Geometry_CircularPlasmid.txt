@@ -5,7 +5,7 @@
 
 
 b:Ge/QuitIfOverlapDetected="true"
-
+i:Ts/Seed = 1
 #World volume
 d:Ge/World/HLX=150 nm
 d:Ge/World/HLY=150 nm

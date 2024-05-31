@@ -12,7 +12,7 @@
 # Since mitochondria are arranged randomly, this check should be switched off, 
 # overlap checking is still done. 
 b:Ge/QuitIfOverlapDetected="false"
-
+i:Ts/Seed = 1
 # Note: Having a very large number of mitochondria will slow down the code. 
 # Ensure the volume is big enough to accommodate all mitochondria defined, 
 # otherwise the code may get stuck in a loop. 

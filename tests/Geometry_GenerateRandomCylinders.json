@@ -1,0 +1,16 @@
+{
+    "name": "Geometry_GenerateRandomCylinders",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_GenerateRandomCylinders.txt"
+    ],
+    "input_files": [
+        "Geometry_GenerateRandomCylinders.txt"
+    ],
+    "output_files": {
+        "randomCylinders_inSphere_position_nm_rotation_deg.xyz": "default",
+        "randomCylinders_inBox_position_nm_rotation_deg.xyz": "default",
+        "randomCylinders_inCylinder_position_nm_rotation_deg.xyz": "default"
+    }
+}

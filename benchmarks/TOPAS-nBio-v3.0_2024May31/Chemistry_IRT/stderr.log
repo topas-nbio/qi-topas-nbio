@@ -1,0 +1,12 @@
+
+Note that TOPAS interrupted one or more histories during this session
+due to errors reported by Geant4.
+The total number of interrupted histories was: 48
+For details on each of these errors, see the console log for "G4Exception"
+If only a very small proportion of your histories were affected,
+you may be able to still use the overall result,
+but this is a judgement call you need to make for yourself.
+You can set TOPAS to limit the number of messages about interrupted histories by setting
+the parameter Ts/InterruptedHistoryMaxReports
+You can set TOPAS to exit if it exceeds a given number of interrupted histories by setting
+the parmameter Ts/MaxInterruptedHistories

@@ -5,6 +5,7 @@
 # Since mitochondria are arranged randomly, this check should be switched off, overlap checking is still done 
 # and when an overlap is detected the overlapping components are rearranged. 
 b:Ge/QuitIfOverlapDetected="false"
+i:Ts/Seed = 1
 
 d:Ge/World/HLX=50. um
 d:Ge/World/HLY=50. um

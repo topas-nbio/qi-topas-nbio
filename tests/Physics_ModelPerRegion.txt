@@ -5,6 +5,7 @@
 
 # Since mitochondria are arranged randomly, this check should be switched off to allow the randomize algorithm to work.
 b:Ge/QuitIfOverlapDetected="false"
+i:Ts/Seed = 1
 
 d:Ge/World/HLX=25 um
 d:Ge/World/HLY=25 um

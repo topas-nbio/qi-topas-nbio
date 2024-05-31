@@ -1,5 +1,5 @@
 # qc-testsuite
-The continuous integration testsuite for TOPAS
+The continuous integration testsuite for TOPAS-nBio
 
 ### Installation
 Testing is performed using [nrtest](https://github.com/davidchall/nrtest) and the TOPAS-specific plugins contained in [nrtest-topas](https://github.com/davidchall/nrtest-topas).
@@ -17,8 +17,8 @@ If working on a Mac, I recommend installing Python with [Homebrew](http://brew.s
         cd qc-testsuite
     
 ### Basic usage
-1. Create a metadata file for your local TOPAS installation in the `apps` directory (look [here](https://github.com/topasmc/qc-testsuite/blob/master/apps/topas-1.0-beta8.json) for an example).
-The setup script should set environment variables needed to run TOPAS (e.g. Geant4 data paths, `DYLD_LIBRARY_PATH`, etc).
+1. Create a metadata file for your local TOPAS-nBio installation in the `apps` directory (look [here](https://github.com/topasmc/qc-testsuite/blob/master/apps/topas-1.0-beta8.json) for an example).
+The setup script should set environment variables needed to run TOPAS-nBio (e.g. Geant4 data paths, `DYLD_LIBRARY_PATH`, etc).
 
 2. Now you can execute the entire testsuite:
 

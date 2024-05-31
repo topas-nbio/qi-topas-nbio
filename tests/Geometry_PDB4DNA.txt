@@ -41,13 +41,11 @@ d:Ge/Detector/TransX = 47.874 angstrom
 d:Ge/Detector/TransY = 0.3285 angstrom
 d:Ge/Detector/TransZ = 118.105 angstrom 
 
-s:Sc/RootFileName = "Geometry_PDB4DNA"
-
 s:Sc/DSB/Quantity = "pdb4dna"
 s:Sc/DSB/PDB4DNAFileName = "inputdata/1ZBB.pdb"
 s:Sc/DSB/Component  = "Detector"
 s:Sc/DSB/OutputFile = "Geometry_PDB4DNA"
-s:Sc/DSB/OutputType = "Root"
+s:Sc/DSB/OutputType = "ASCII"
 s:Sc/DSB/IfOutputFileAlreadyExists = "overwrite"
 # DSB configuration parameters
 i:Sc/DSB/MinimumDistanceForDSB       = 2       # Distance betwen SSB to form a DSB, in base-pair's factors

@@ -1,0 +1,14 @@
+{
+    "name": "Geometry_ReadBackRandomCylindres",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Geometry_ReadBackRandomCylindres.txt"
+    ],
+    "input_files": [
+        "Geometry_ReadBackRandomCylindres.txt",
+        "inputdata/randomCylinders_inSphere_position_nm_rotation_deg.xyz",
+        "inputdata/randomCylinders_inBox_position_nm_rotation_deg.xyz",
+        "inputdata/randomCylinders_inCylinder_position_nm_rotation_deg.xyz"
+    ]
+}

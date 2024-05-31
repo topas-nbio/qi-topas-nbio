@@ -14,6 +14,13 @@ Ge/World/HLY= 1 um
 Ge/World/HLZ= 2 um  
 Ge/World/Material ="G4_WATER"
 
+d:Ge/Target/HLX= 1 um  
+d:Ge/Target/HLY= 1 um  
+d:Ge/Target/HLZ= 2 um  
+s:Ge/Target/Material ="G4_WATER"
+s:Ge/Target/Type   ="TsBox"
+s:Ge/Target/Parent = "World"
+
 Ge/BeamPosition/TransZ = -1.0 * Ge/World/HLZ um  
 Ge/BeamPosition/RotX = 0 deg 
 
@@ -22,6 +29,11 @@ So/Demo/BeamEnergySpread = 0
 So/Demo/BeamParticle = "proton"
 So/Demo/BeamEnergy = 1 MeV 
 So/Demo/NumberOfHistoriesInRun = 10
+
+s:Sc/Physics_ActiveCustomizablePhysics/Quantity = "Fluence"
+s:Sc/Physics_ActiveCustomizablePhysics/Component = "Target"
+s:Sc/Physics_ActiveCustomizablePhysics/OutputFile = "Physics_ActiveCustomizablePhysics"
+s:Sc/Physics_ActiveCustomizablePhysics/IfOutputFileAlreadyExists = "Overwrite"
 
 Ts/NumberOfThreads = 1 
 b:Ts/ShowCPUTime = "True"

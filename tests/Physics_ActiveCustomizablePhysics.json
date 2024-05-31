@@ -1,0 +1,14 @@
+{
+    "name": "Physics_ActiveCustomizablePhysics",
+    "version": 1.0,
+    "description": "theDescription",
+    "args": [
+        "Physics_ActiveCustomizablePhysics.txt"
+    ],
+    "input_files": [
+        "Physics_ActiveCustomizablePhysics.txt"
+    ],
+    "output_files": {
+        "Physics_ActiveCustomizablePhysics.csv": "default"
+    }
+}

@@ -18,7 +18,7 @@ d:Ge/CylindricalEnvelope/RMax              = 40 nm
 # The last 3 columns contain rotation angles in degrees
 b:Ge/CylindricalEnvelope/GenerateCylinders = "False"
 i:Ge/CylindricalEnvelope/NumberOfCylinders = 500
-s:Ge/CylindricalEnvelope/InputFile        = "randomCylinders_inCylinder_position_nm_rotation_deg.xyz"
+s:Ge/CylindricalEnvelope/InputFile        = "inputdata/randomCylinders_inCylinder_position_nm_rotation_deg.xyz"
 # Dimensions for random cylinders
 d:Ge/CylindricalEnvelope/Cylinders/RMax    = 1.15 nm
 d:Ge/CylindricalEnvelope/Cylinders/HL      = 1.70 nm
@@ -38,7 +38,7 @@ d:Ge/SphericalEnvelope/RMax              = 80 nm
 # The first 3 columns contain position in x, y, z axis in nm. 
 # The last 3 columns contain rotation angles in degrees
 b:Ge/SphericalEnvelope/GenerateCylinders = "False"
-s:Ge/SphericalEnvelope/InputFile        = "randomCylinders_inSphere_position_nm_rotation_deg.xyz"
+s:Ge/SphericalEnvelope/InputFile        = "inputdata/randomCylinders_inSphere_position_nm_rotation_deg.xyz"
 # Dimensions for random cylinders
 d:Ge/SphericalEnvelope/Cylinders/RMax    = 1.15 nm
 d:Ge/SphericalEnvelope/Cylinders/HL      = 1.70 nm
@@ -59,7 +59,7 @@ d:Ge/BoxEnvelope/HLZ               = 80 nm
 # The first 3 columns contain position in x, y, z axis in nm. 
 # The last 3 columns contain rotation angles in degrees
 b:Ge/BoxEnvelope/GenerateCylinders = "False"
-s:Ge/BoxEnvelope/InputFile        = "randomCylinders_inBox_position_nm_rotation_deg.xyz"
+s:Ge/BoxEnvelope/InputFile        = "inputdata/randomCylinders_inBox_position_nm_rotation_deg.xyz"
 # Dimensions for random cylinders
 d:Ge/BoxEnvelope/Cylinders/RMax    = 1.15 nm
 d:Ge/BoxEnvelope/Cylinders/HL      = 1.70 nm

@@ -10,6 +10,6 @@
         "inputdata/1ZBB.pdb"
     ],
     "output_files": {
-        "Geometry_PDB4DNA.root": "default"
+        "Geometry_PDB4DNA.phsp": "default"
     }
 }
