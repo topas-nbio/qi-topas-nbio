@@ -194,6 +194,17 @@
             },
             "passed": true,
             "version": 1.0
+        },
+        {
+            "description": "Run a simple DaMaRiS simulation of NHEJ. Expecting 25+/-3 initial DSBs, 0.4+/-0.3 misrepairs, and 3.4+/-9 unrepaired at 24 hours, which can be calculated from the averages and SEM of the results in PerRepResults0.out.",
+            "error_msg": null,
+            "name": "DaMaRiS",
+            "output_files": {
+                "PerRepResults0.out": "default",
+                "RawData0.out": "default"
+            },
+            "passed": true,
+            "version": 1.0
         }
     ]
 }
