@@ -1,0 +1,2839 @@
+
+Welcome to TOPAS, Tool for Particle Simulation (Version 4.1.p1)
+Loading parameters starting from: Geometry_GenerateRandomCylinders.txt
+
+Geant4 Data directory has been specified by the
+TOPAS_G4_DATA_DIR environment variable as /Users/ramosmendj/Applications/GEANT4/G4DATA/
+
+**************************************************************
+ Geant4 version Name: geant4-11-01-patch-03 [MT]   (10-November-2023)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+TOPAS is in MT mode, setting number of threads to: 1
+
+TOPAS set the tolerances based on the World size to:
+      Surface tolerance = 9e-09 nm, and radial tolerance = 9e-09 nm.
+Checking overlaps for volume BoxEnvelope:0 (G4Box) ... OK! 
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope18:18 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-7.51838e-06,-4.03081e-05,-5.82092e-05) by 3.08133 Ang (max of 35 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope20:20 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.03564e-05,3.01078e-05,5.09613e-06) by 3.56369 Ang (max of 42 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope29:29 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.09207e-05,-4.63544e-06,-1.60198e-05) by 9.20729 Ang (max of 271 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope33:33 (G4Tubs) with BoxEnvelope/BoxEnvelope28:28 (G4Tubs)
+          overlap at local point (-8.97574e-07,-2.45122e-07,-1.23577e-07) by 2.19557 Ang (max of 32 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope47:47 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-3.05559e-05,4.03731e-05,7.72884e-06) by 3.73065 Ang (max of 225 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope53:53 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.1029e-05,6.20403e-06,-5.6783e-05) by 1.02905 nm  (max of 291 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope69:69 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.16534e-05,-1.51741e-05,-4.80113e-05) by 1.65337 nm  (max of 411 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope88:88 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.14179e-05,-2.25329e-05,-1.84507e-05) by 1.41789 nm  (max of 390 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope94:94 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-8.46972e-06,4.1037e-05,-2.29496e-06) by 1.03704 nm  (max of 206 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope123:123 (G4Tubs) with BoxEnvelope/BoxEnvelope81:81 (G4Tubs)
+          overlap at local point (4.07259e-07,8.44723e-08,1.056e-06) by 6.43995 Ang (max of 56 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope143:143 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-2.73874e-05,-4.10214e-05,-2.32693e-05) by 1.02141 nm  (max of 377 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope150:150 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (2.23551e-05,-3.55032e-05,8.06043e-05) by 6.04291 Ang (max of 266 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope162:162 (G4Tubs) with BoxEnvelope/BoxEnvelope142:142 (G4Tubs)
+          overlap at local point (4.77079e-07,5.87556e-07,-1.31592e-06) by 3.84077 Ang (max of 45 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope162:162 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.14144e-05,5.69864e-06,-3.71852e-05) by 1.4144 nm  (max of 421 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope164:164 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-7.78533e-06,3.36467e-05,-8.1485e-05) by 1.48499 nm  (max of 342 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope167:167 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-2.1545e-05,-3.61788e-05,8.03888e-05) by 3.88778 Ang (max of 213 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope170:170 (G4Tubs) with BoxEnvelope/BoxEnvelope29:29 (G4Tubs)
+          overlap at local point (8.40571e-07,-5.88152e-09,-1.56683e-07) by 3.09408 Ang (max of 18 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope185:185 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (3.99854e-05,-4.13418e-05,1.02257e-05) by 1.34181 nm  (max of 502 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope185:185 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-1.24184e-05,-4.06631e-05,-3.11673e-05) by 6.63057 Ang (max of 236 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope185:185 (G4Tubs) with BoxEnvelope/BoxEnvelope129:129 (G4Tubs)
+          overlap at local point (8.79662e-08,-2.42533e-07,-9.31521e-07) by 7.68479 Ang (max of 139 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope190:190 (G4Tubs) with BoxEnvelope/BoxEnvelope98:98 (G4Tubs)
+          overlap at local point (4.80006e-07,5.45234e-07,-1.09137e-06) by 4.2358 Ang (max of 53 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope190:190 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-2.11828e-05,-4.06829e-05,-5.54207e-06) by 6.829 Ang (max of 140 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope207:207 (G4Tubs) with BoxEnvelope/BoxEnvelope205:205 (G4Tubs)
+          overlap at local point (7.94793e-07,2.49219e-07,1.37028e-06) by 3.1705 Ang (max of 32 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope212:212 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.13708e-05,-3.1471e-06,3.44976e-05) by 1.37078 nm  (max of 301 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope217:217 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (9.22208e-06,2.52549e-05,8.09778e-05) by 9.77798 Ang (max of 229 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope234:234 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.19969e-05,3.44654e-06,-2.3604e-05) by 1.99692 nm  (max of 472 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope237:237 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.19938e-05,3.09726e-06,-6.60326e-05) by 1.9938 nm  (max of 491 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope247:247 (G4Tubs) with BoxEnvelope/BoxEnvelope153:153 (G4Tubs)
+          overlap at local point (6.18348e-08,-8.30461e-08,-6.29954e-07) by 1.04646 nm  (max of 160 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope258:258 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (3.12907e-05,-4.044e-05,2.36673e-05) by 4.39987 Ang (max of 90 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope265:265 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.11352e-05,-3.86097e-05,3.04805e-05) by 1.13524 nm  (max of 289 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope266:266 (G4Tubs) with BoxEnvelope/BoxEnvelope131:131 (G4Tubs)
+          overlap at local point (-4.22994e-07,-5.61025e-07,-1.50243e-06) by 1.97575 Ang (max of 12 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope271:271 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.05875e-05,-1.48269e-05,2.43961e-05) by 5.87507 Ang (max of 93 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope282:282 (G4Tubs) with BoxEnvelope/BoxEnvelope235:235 (G4Tubs)
+          overlap at local point (9.413e-07,-2.65837e-07,1.497e-06) by 1.71882 Ang (max of 6 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope288:288 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-1.96818e-05,4.01103e-05,-7.06846e-05) by 1.10261 Ang (max of 63 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope289:289 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.12789e-05,1.33902e-05,3.40925e-05) by 1.2789 nm  (max of 409 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope289:289 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.14427e-05,-5.24984e-06,5.86923e-05) by 1.4427 nm  (max of 350 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope289:289 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-6.75789e-06,4.02791e-05,6.70536e-05) by 2.79125 Ang (max of 40 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope298:298 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (1.65631e-05,4.09025e-05,-6.90414e-05) by 9.02493 Ang (max of 308 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope306:306 (G4Tubs) with BoxEnvelope/BoxEnvelope303:303 (G4Tubs)
+          overlap at local point (5.21904e-07,4.38575e-08,-1.05894e-06) by 6.26256 Ang (max of 71 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope310:310 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-8.52271e-06,4.14507e-05,-6.77599e-05) by 1.45072 nm  (max of 386 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope323:323 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-1.10143e-05,-4.07059e-05,-3.20854e-05) by 7.05949 Ang (max of 247 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope333:333 (G4Tubs) with BoxEnvelope/BoxEnvelope178:178 (G4Tubs)
+          overlap at local point (-3.46935e-07,9.00703e-07,7.15709e-07) by 1.8479 Ang (max of 34 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope342:342 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (2.28203e-05,-2.29066e-05,-8.1294e-05) by 1.29403 nm  (max of 363 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope350:350 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.11197e-05,-1.38801e-05,5.03572e-05) by 1.11975 nm  (max of 336 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope355:355 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.12976e-05,3.47865e-05,3.63321e-05) by 1.29755 nm  (max of 265 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope358:358 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (1.187e-05,4.12782e-05,1.4668e-05) by 1.27816 nm  (max of 471 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope364:364 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (2.72055e-05,-4.08513e-05,3.41581e-05) by 8.513 Ang (max of 185 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope379:379 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.15734e-05,1.82884e-05,1.93203e-05) by 1.57344 nm  (max of 373 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope382:382 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-4.03176e-05,3.48779e-05,-1.50725e-05) by 3.1759 Ang (max of 154 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope384:384 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-8.11752e-06,-4.03437e-05,-9.66749e-08) by 3.43749 Ang (max of 45 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope391:391 (G4Tubs) with BoxEnvelope/BoxEnvelope140:140 (G4Tubs)
+          overlap at local point (9.45056e-07,-5.07785e-07,-1.56161e-06) by 77164.4 fm  (max of 9 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope394:394 (G4Tubs) with BoxEnvelope/BoxEnvelope279:279 (G4Tubs)
+          overlap at local point (-4.9012e-07,-1.63031e-07,-1.07708e-06) by 6.22917 Ang (max of 88 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope406:406 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-2.96012e-05,-4.01636e-05,1.65825e-05) by 1.63621 Ang (max of 12 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope410:410 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (1.66785e-05,1.47536e-05,-8.01589e-05) by 1.58903 Ang (max of 46 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope433:433 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.08761e-05,-1.74809e-05,5.98421e-05) by 8.76125 Ang (max of 228 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope441:441 (G4Tubs) with BoxEnvelope/BoxEnvelope351:351 (G4Tubs)
+          overlap at local point (1.00043e-06,-3.7117e-07,1.66017e-06) by 39826 fm  (max of 2 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope444:444 (G4Tubs) with BoxEnvelope/BoxEnvelope177:177 (G4Tubs)
+          overlap at local point (-5.66268e-07,7.25246e-08,-1.53836e-07) by 5.79107 Ang (max of 120 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope444:444 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (9.92283e-06,-4.14208e-05,3.634e-05) by 1.42078 nm  (max of 381 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope444:444 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-5.83635e-06,-2.62945e-05,-8.14126e-05) by 1.41262 nm  (max of 362 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope446:446 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (6.59761e-06,-1.13176e-05,-8.15105e-05) by 1.51049 nm  (max of 344 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope448:448 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-3.52151e-05,3.94398e-05,-8.12411e-05) by 1.24112 nm  (max of 618 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope448:448 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-1.16428e-05,2.17756e-05,8.12903e-05) by 1.29027 nm  (max of 405 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope456:456 (G4Tubs) with BoxEnvelope/BoxEnvelope227:227 (G4Tubs)
+          overlap at local point (-7.17173e-07,6.47784e-07,-8.1271e-07) by 1.83584 Ang (max of 12 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope465:465 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (1.74296e-05,-4.0814e-05,-9.67608e-06) by 8.14029 Ang (max of 168 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope471:471 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-2.8838e-05,-4.13613e-05,-2.12091e-05) by 1.36128 nm  (max of 354 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope471:471 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.06976e-05,2.1865e-05,4.40117e-05) by 6.9758 Ang (max of 181 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope480:480 (G4Tubs) with BoxEnvelope/BoxEnvelope32:32 (G4Tubs)
+          overlap at local point (-2.2842e-08,3.92067e-08,-5.89725e-07) by 1.10462 nm  (max of 214 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope483:483 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (6.63511e-06,4.11056e-05,2.74664e-05) by 1.1056 nm  (max of 487 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope493:493 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (-2.8088e-05,-1.37629e-05,8.13356e-05) by 1.33558 nm  (max of 489 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope495:495 (G4Tubs) with BoxEnvelope/BoxEnvelope179:179 (G4Tubs)
+          overlap at local point (-1.15037e-07,-9.65553e-07,1.57191e-06) by 1.28087 Ang (max of 13 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope497:497 (G4Tubs) with BoxEnvelope/BoxEnvelope310:310 (G4Tubs)
+          overlap at local point (-2.74988e-07,1.30461e-07,7.15723e-07) by 8.45634 Ang (max of 151 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope499:499 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (4.154e-05,2.741e-05,-5.11039e-06) by 1.53995 nm  (max of 368 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume BoxEnvelope/BoxEnvelope500:500 (G4Tubs) with its mother volume BoxEnvelope (G4Box)
+          protrusion at mother local point (5.08609e-06,-4.05285e-05,-1.65558e-05) by 5.28513 Ang (max of 98 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume CylindricalEnvelope:0 (G4Tubs) ... OK! 
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope11:11 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-6.03413e-06,-3.99808e-05,-2.03044e-05) by 4.33609 Ang (max of 72 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope16:16 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.18362e-05,3.5263e-05,2.6131e-05) by 1.47646 nm  (max of 510 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope43:43 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.0072e-05,8.49204e-06,4.3827e-05) by 9.61968 Ang (max of 214 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope57:57 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (1.48773e-05,-1.54999e-06,8.0938e-05) by 9.37955 Ang (max of 344 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope65:65 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.03782e-05,9.68164e-06,4.75639e-05) by 1.52272 nm  (max of 357 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope77:77 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.47299e-05,-7.16984e-06,8.1548e-05) by 1.54798 nm  (max of 372 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope79:79 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope59:59 (G4Tubs)
+          overlap at local point (-8.42111e-07,-3.84687e-07,1.41057e-06) by 2.24185 Ang (max of 27 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope83:83 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.99967e-05,9.16058e-06,4.6037e-05) by 1.0323 nm  (max of 274 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope96:96 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.31768e-05,-2.59588e-06,-8.05462e-05) by 5.46221 Ang (max of 151 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope96:96 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (1.33156e-05,8.89353e-06,-8.12107e-05) by 1.2107 nm  (max of 318 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope104:104 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.28775e-05,-2.59784e-05,-5.78574e-05) by 1.90233 nm  (max of 452 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope107:107 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.03427e-05,-3.56508e-05,5.19083e-06) by 1.04636 nm  (max of 263 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope107:107 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.91018e-05,1.74422e-05,-8.01963e-05) by 1.96333 Ang (max of 36 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope114:114 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-1.55448e-05,3.87243e-05,7.36795e-05) by 1.72784 nm  (max of 409 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope115:115 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope24:24 (G4Tubs)
+          overlap at local point (-8.76792e-07,-4.10021e-07,-1.53438e-06) by 1.65615 Ang (max of 18 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope119:119 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-1.77871e-05,3.7278e-05,5.14329e-05) by 1.30415 nm  (max of 493 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope119:119 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.89923e-05,1.16427e-05,-4.95939e-05) by 6.93369 Ang (max of 120 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope123:123 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope108:108 (G4Tubs)
+          overlap at local point (-9.83216e-08,-3.198e-08,7.04489e-07) by 9.95511 Ang (max of 139 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope147:147 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-1.53792e-05,2.84051e-05,8.13908e-05) by 1.39079 nm  (max of 356 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope147:147 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.7918e-06,6.49859e-06,-8.01071e-05) by 1.07143 Ang (max of 102 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope148:148 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.16816e-05,-1.41943e-06,-9.80955e-06) by 1.70576 nm  (max of 484 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope171:171 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.29234e-05,-2.35382e-05,-2.20583e-06) by 4.72132 Ang (max of 65 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope173:173 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-1.69728e-05,1.51756e-05,-8.02909e-05) by 2.90907 Ang (max of 35 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope180:180 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope64:64 (G4Tubs)
+          overlap at local point (3.78209e-07,-5.0881e-07,1.21688e-06) by 4.83122 Ang (max of 94 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope200:200 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope67:67 (G4Tubs)
+          overlap at local point (1.14518e-06,8.65179e-08,-1.57768e-06) by 1554.24 fm  (max of 1 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope204:204 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.004e-05,-2.83846e-05,-2.06296e-05) by 1.32905 nm  (max of 394 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope210:210 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.03112e-05,8.2979e-06,-1.34855e-06) by 1.15642 nm  (max of 464 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope227:227 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.80437e-05,-3.0782e-05,6.98164e-05) by 1.64107 nm  (max of 487 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope233:233 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope196:196 (G4Tubs)
+          overlap at local point (1.47131e-07,-1.41031e-07,6.86763e-07) by 9.46193 Ang (max of 114 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope240:240 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope43:43 (G4Tubs)
+          overlap at local point (-4.70583e-08,4.32752e-08,3.24257e-07) by 1.08607 nm  (max of 202 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope250:250 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.08353e-05,-3.56094e-05,-4.68528e-05) by 1.25699 nm  (max of 451 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope250:250 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope67:67 (G4Tubs)
+          overlap at local point (-7.37868e-07,1.07679e-07,7.31138e-07) by 4.04316 Ang (max of 53 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope250:250 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.56176e-05,-3.28419e-05,7.14781e-06) by 1.65157 nm  (max of 442 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope259:259 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.1785e-05,-3.53588e-05,4.93799e-05) by 1.53112 nm  (max of 358 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope261:261 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-4.05899e-05,-1.78532e-06,2.00699e-05) by 6.2917 Ang (max of 173 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope263:263 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (1.60488e-05,-2.43085e-05,-8.04766e-05) by 4.76597 Ang (max of 104 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope264:264 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope153:153 (G4Tubs)
+          overlap at local point (-2.11142e-07,-8.28825e-07,1.54298e-06) by 1.5702 Ang (max of 26 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope264:264 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.95179e-05,-3.14219e-06,-8.13462e-05) by 1.34617 nm  (max of 339 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope264:264 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (6.14961e-06,3.97804e-05,1.60241e-05) by 2.52915 Ang (max of 50 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope277:277 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.12116e-05,-2.64052e-05,7.43762e-05) by 8.82735 Ang (max of 277 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope285:285 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-4.09354e-05,-2.16131e-06,-5.72297e-05) by 9.92441 Ang (max of 207 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope295:295 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope36:36 (G4Tubs)
+          overlap at local point (3.00797e-08,-2.37534e-08,-3.4633e-07) by 1.11167 nm  (max of 216 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope313:313 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.0313e-05,3.60561e-05,3.49631e-05) by 1.38428 nm  (max of 338 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope319:319 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.0298e-05,9.09746e-06,-7.28794e-05) by 1.31218 nm  (max of 276 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope323:323 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.37029e-05,2.33132e-05,-4.00487e-05) by 9.80356 Ang (max of 242 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope326:326 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.23166e-05,-2.60372e-05,6.12071e-05) by 1.50062 nm  (max of 391 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope329:329 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope227:227 (G4Tubs)
+          overlap at local point (-7.39793e-07,4.01944e-07,-1.48839e-06) by 2.11613 Ang (max of 13 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope329:329 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.29616e-05,-2.44706e-05,-1.60546e-05) by 1.05213 nm  (max of 197 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope339:339 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.98097e-05,1.18392e-05,-1.20527e-05) by 1.53285 nm  (max of 344 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope340:340 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope87:87 (G4Tubs)
+          overlap at local point (-7.21801e-07,4.32952e-08,1.30005e-06) by 3.99948 Ang (max of 42 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope341:341 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (1.4722e-05,3.79514e-05,-1.50719e-05) by 7.06845 Ang (max of 194 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope354:354 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.76097e-05,-1.44753e-05,2.59982e-05) by 2.99161 Ang (max of 67 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope365:365 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.00682e-05,3.30012e-06,4.30766e-05) by 2.03839 Ang (max of 30 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope366:366 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (2.93979e-06,4.06674e-05,1.25104e-07) by 7.7348 Ang (max of 163 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope393:393 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.57536e-05,2.07942e-05,3.95984e-05) by 1.36081 nm  (max of 320 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope399:399 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.93033e-05,-9.42539e-06,5.0872e-05) by 4.17677 Ang (max of 71 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope400:400 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.0459e-05,2.74915e-05,6.04836e-05) by 1.03091 nm  (max of 326 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope407:407 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope144:144 (G4Tubs)
+          overlap at local point (7.84315e-07,4.00798e-07,1.4785e-06) by 2.21496 Ang (max of 44 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope413:413 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope31:31 (G4Tubs)
+          overlap at local point (-2.88335e-07,-4.6538e-07,1.09395e-06) by 6.02538 Ang (max of 63 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope414:414 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope335:335 (G4Tubs)
+          overlap at local point (-3.91936e-07,1.09678e-07,6.15382e-07) by 7.43008 Ang (max of 96 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope414:414 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope240:240 (G4Tubs)
+          overlap at local point (6.55795e-07,-6.96412e-08,-4.70567e-07) by 4.90518 Ang (max of 120 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope420:420 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.67177e-05,-1.90415e-05,8.06547e-05) by 6.54701 Ang (max of 231 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope420:420 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (1.89935e-05,3.62649e-05,2.50337e-05) by 9.37733 Ang (max of 238 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope437:437 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-5.85722e-06,-1.22739e-05,8.00364e-05) by 36430.3 fm  (max of 10 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope439:439 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.55141e-05,-2.07687e-05,-3.61791e-05) by 1.14109 nm  (max of 436 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope442:442 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.0251e-05,9.55708e-07,-4.57955e-05) by 2.62298 Ang (max of 22 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope450:450 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope162:162 (G4Tubs)
+          overlap at local point (-7.71323e-08,-5.55113e-10,-6.44969e-07) by 1.05503 nm  (max of 149 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope452:452 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (4.10304e-05,1.80317e-06,-2.90594e-05) by 1.06995 nm  (max of 316 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope460:460 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.41891e-05,-3.39067e-05,-1.82224e-05) by 1.65065 nm  (max of 399 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope461:461 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (6.75127e-06,2.22868e-05,-8.04034e-05) by 4.03351 Ang (max of 56 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope462:462 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.49826e-05,2.27546e-05,-5.41445e-05) by 1.73199 nm  (max of 446 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope464:464 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope255:255 (G4Tubs)
+          overlap at local point (6.00847e-08,7.17659e-07,-1.29323e-06) by 4.0677 Ang (max of 28 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope465:465 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.8775e-05,-3.03084e-05,-4.44237e-05) by 1.79238 nm  (max of 451 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope466:466 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope180:180 (G4Tubs)
+          overlap at local point (1.84491e-07,-5.81356e-07,1.13385e-06) by 5.40072 Ang (max of 68 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope474:474 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-4.00851e-05,-7.34713e-06,-3.58897e-05) by 7.52866 Ang (max of 212 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope490:490 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (3.56145e-05,-1.24132e-05,8.10782e-05) by 1.07815 nm  (max of 450 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope490:490 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-2.21381e-05,-3.35685e-05,3.44286e-07) by 2.11179 Ang (max of 24 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope495:495 (G4Tubs) with its mother volume CylindricalEnvelope (G4Tubs)
+          protrusion at mother local point (-3.59596e-05,1.78991e-05,-4.98907e-06) by 1.67988 Ang (max of 86 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope496:496 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope273:273 (G4Tubs)
+          overlap at local point (1.95348e-07,-7.3249e-07,-1.30781e-06) by 3.91909 Ang (max of 80 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume CylindricalEnvelope/CylindricalEnvelope498:498 (G4Tubs) with CylindricalEnvelope/CylindricalEnvelope173:173 (G4Tubs)
+          overlap at local point (2.71603e-07,1.75131e-07,8.69929e-07) by 8.2683 Ang (max of 92 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume SphericalEnvelope:0 (G4Orb) ... OK! 
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope6:6 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (9.8116e-06,-6.95672e-05,-4.01127e-05) by 9.00453 Ang (max of 229 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope23:23 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-1.89358e-05,4.16909e-05,-6.7101e-05) by 1.23568 nm  (max of 264 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope41:41 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (3.21062e-05,7.26072e-05,-1.24227e-05) by 3.55062 Ang (max of 49 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope45:45 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-1.51546e-05,-9.97564e-07,-7.90135e-05) by 4.59884 Ang (max of 151 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope51:51 (G4Tubs) with SphericalEnvelope/SphericalEnvelope35:35 (G4Tubs)
+          overlap at local point (-3.41863e-09,-4.67547e-08,-6.02514e-07) by 1.09749 nm  (max of 215 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope65:65 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-6.10992e-05,-4.97801e-05,1.5695e-05) by 3.58532 Ang (max of 41 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope90:90 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-7.55497e-05,2.05549e-05,-1.92528e-05) by 6.28349 Ang (max of 103 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope91:91 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (3.115e-05,1.88008e-05,-7.18832e-05) by 5.66702 Ang (max of 94 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope112:112 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (1.94547e-05,5.4407e-05,-5.57781e-05) by 3.10685 Ang (max of 39 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope155:155 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-3.66878e-06,-1.71657e-05,-7.83566e-05) by 2.98696 Ang (max of 76 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope155:155 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (1.48441e-05,3.33731e-05,7.17573e-05) by 5.18483 Ang (max of 214 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope155:155 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-6.51555e-05,3.46592e-05,-3.30178e-05) by 8.49745 Ang (max of 280 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope185:185 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-4.72286e-05,2.84791e-05,5.8216e-05) by 1.9165 Ang (max of 18 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope194:194 (G4Tubs) with SphericalEnvelope/SphericalEnvelope164:164 (G4Tubs)
+          overlap at local point (-1.5552e-07,8.23784e-08,-7.94546e-07) by 9.05454 Ang (max of 128 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope194:194 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-4.30555e-05,-6.5371e-05,-2.14143e-05) by 1.15242 nm  (max of 248 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope217:217 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-8.32744e-06,-4.6952e-05,-6.6044e-05) by 1.45949 nm  (max of 473 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope249:249 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (6.15821e-06,5.55289e-05,5.83725e-05) by 8.00614 Ang (max of 245 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope275:275 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (6.26989e-05,4.97612e-05,-5.14609e-06) by 2.10976 Ang (max of 30 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope302:302 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-7.73789e-05,2.01517e-05,-1.10917e-05) by 7.25478 Ang (max of 229 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope312:312 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-2.09561e-05,-7.71254e-05,1.64347e-05) by 1.594 nm  (max of 376 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope343:343 (G4Tubs) with SphericalEnvelope/SphericalEnvelope236:236 (G4Tubs)
+          overlap at local point (-7.14795e-07,-1.13584e-07,1.31621e-06) by 3.83789 Ang (max of 32 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope356:356 (G4Tubs) with SphericalEnvelope/SphericalEnvelope8:8 (G4Tubs)
+          overlap at local point (-7.4995e-07,-2.60176e-07,1.26861e-06) by 3.56201 Ang (max of 33 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope384:384 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (1.70652e-05,-3.10897e-05,-7.36908e-05) by 1.78096 nm  (max of 451 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope411:411 (G4Tubs) with SphericalEnvelope/SphericalEnvelope5:5 (G4Tubs)
+          overlap at local point (2.91051e-08,2.53026e-07,6.92817e-07) by 8.95305 Ang (max of 135 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope418:418 (G4Tubs) with SphericalEnvelope/SphericalEnvelope83:83 (G4Tubs)
+          overlap at local point (5.59208e-07,5.32759e-07,5.88169e-07) by 3.77636 Ang (max of 34 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope424:424 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-7.67991e-05,-9.98788e-06,2.24573e-05) by 6.36189 Ang (max of 232 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope429:429 (G4Tubs) with SphericalEnvelope/SphericalEnvelope55:55 (G4Tubs)
+          overlap at local point (-6.73794e-07,-7.8769e-07,-1.57956e-06) by 1.13441 Ang (max of 47 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope437:437 (G4Tubs) with SphericalEnvelope/SphericalEnvelope117:117 (G4Tubs)
+          overlap at local point (-4.46122e-07,-7.94348e-07,-1.46123e-06) by 2.38766 Ang (max of 13 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope459:459 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (1.01773e-05,7.96924e-05,-3.75202e-06) by 4.27168 Ang (max of 170 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with volume already placed !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope470:470 (G4Tubs) with SphericalEnvelope/SphericalEnvelope290:290 (G4Tubs)
+          overlap at local point (1.02655e-06,-4.50407e-07,1.63488e-06) by 28985.2 fm  (max of 3 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope484:484 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (4.02256e-05,6.70532e-05,-2.10548e-05) by 9.78602 Ang (max of 336 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope484:484 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-5.14483e-05,-6.10804e-05,-1.35704e-05) by 1.00552 nm  (max of 355 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume SphericalEnvelope/SphericalEnvelope494:494 (G4Tubs) with its mother volume SphericalEnvelope (G4Orb)
+          protrusion at mother local point (-2.87176e-05,3.21723e-05,-6.92509e-05) by 1.58092 nm  (max of 512 cases)
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+
+Checking for Unused Components.
+These are Components that were never built even though they were at least
+partially defined in some parameters. This is not necessarily an error.
+It may be an intentional choice to have these Component definitions handy for later use.
+To turn off this check, set Ge/CheckForUnusedComponents to False
+  No unused components were found.
+
+/Users/ramosmendj/Applications/GEANT4/G4DATA//G4NDL4.7
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /Users/ramosmendj/Applications/GEANT4/G4DATA//G4NDL4.7/Inelastic
+@@@ G4ParticleHPInelasticData instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /Users/ramosmendj/Applications/GEANT4/G4DATA//G4NDL4.7
+Visualization verbosity changed to quiet (0)
+=======================================================================
+======                 Electromagnetic Physics Parameters      ========
+=======================================================================
+LPM effect enabled                                 1
+Enable creation and use of sampling tables         0
+Apply cuts on all EM processes                     0
+Use combined TransportationWithMsc                 Disabled
+Use general process                                1
+Enable linear polarisation for gamma               0
+Enable photoeffect sampling below K-shell          1
+Enable sampling of quantum entanglement            0
+X-section factor for integral approach             0.8
+Min kinetic energy for tables                      100 eV 
+Max kinetic energy for tables                      500 MeV
+Number of bins per decade of a table               20
+Verbose level                                      1
+Verbose level for worker thread                    0
+Bremsstrahlung energy threshold above which 
+  primary e+- is added to the list of secondary    100 TeV
+Bremsstrahlung energy threshold above which primary
+  muon/hadron is added to the list of secondary    100 TeV
+Lowest triplet kinetic energy                      1 MeV
+Enable sampling of gamma linear polarisation       0
+5D gamma conversion model type                     0
+5D gamma conversion model on isolated ion          0
+Livermore data directory                           epics_2017
+=======================================================================
+======                 Ionisation Parameters                   ========
+=======================================================================
+Step function for e+-                              (0.2, 0.01 mm)
+Step function for muons/hadrons                    (0.1, 0.05 mm)
+Step function for light ions                       (0.1, 0.02 mm)
+Step function for general ions                     (0.1, 0.001 mm)
+Lowest e+e- kinetic energy                         100 eV 
+Lowest muon/hadron kinetic energy                  1 keV
+Use ICRU90 data                                    1
+Fluctuations of dE/dx are enabled                  1
+Type of fluctuation model for leptons and hadrons  Urban
+Use built-in Birks satuaration                     0
+Build CSDA range enabled                           0
+Use cut as a final range enabled                   0
+Enable angular generator interface                 1
+Max kinetic energy for CSDA tables                 1 GeV
+Max kinetic energy for NIEL computation            1 MeV
+Linear loss limit                                  0.01
+Read data from file for e+e- pair production by mu 0
+=======================================================================
+======                 Multiple Scattering Parameters          ========
+=======================================================================
+Type of msc step limit algorithm for e+-           2
+Type of msc step limit algorithm for muons/hadrons 0
+Msc lateral displacement for e+- enabled           1
+Msc lateral displacement for muons and hadrons     1
+Urban msc model lateral displacement alg96         1
+Range factor for msc step limit for e+-            0.08
+Range factor for msc step limit for muons/hadrons  0.2
+Geometry factor for msc step limitation of e+-     2.5
+Safety factor for msc step limit for e+-           0.6
+Skin parameter for msc step limitation of e+-      3
+Lambda limit for msc step limit for e+-            1 mm
+Use Mott correction for e- scattering              1
+Factor used for dynamic computation of angular 
+  limit between single and multiple scattering     1
+Fixed angular limit between single 
+  and multiple scattering                          3.1416 rad
+Upper energy limit for e+- multiple scattering     100 MeV
+Type of electron single scattering model           0
+Type of nuclear form-factor                        1
+Screening factor                                   1
+=======================================================================
+======                 Atomic Deexcitation Parameters          ========
+=======================================================================
+Fluorescence enabled                               1
+Directory in G4LEDATA for fluorescence data files  fluor
+Auger electron cascade enabled                     0
+PIXE atomic de-excitation enabled                  0
+De-excitation module ignores cuts                  0
+Type of PIXE cross section for hadrons             Empirical
+Type of PIXE cross section for e+-                 Livermore
+=======================================================================
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld  1  0  0
+### ===  Ignore cuts flag:   0
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 500 MeV in 71 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  500 MeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 21 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 500 MeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LowEPComptonModel : Emin=    0 eV  Emax=   20 MeV Fluo
+        KleinNishina : Emin=   20 MeV Emax=  500 MeV Fluo
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 500 MeV, 33 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+      BetheHeitler5D : Emin=    0 eV  Emax=  500 MeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 150 keV, 21 bins/decade, spline: 0
+      LambdaPrime table from 150 keV to 500 MeV in 74 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  500 MeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  500 MeV Nbins=20 100 MeV - 500 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+eIoni:  for e-  XStype:1  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.2, 0.01 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             PenIoni : Emin=    0 eV  Emax=  100 keV
+        MollerBhabha : Emin=  100 keV Emax=  500 MeV  deltaVI
+
+eBrem:  for e-  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      LPM flag: 1 for E > 0.5 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=  500 MeV  AngularGen2BS
+
+ePairProd:  for e-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 0
+      Sampling table 4x1001; from 0.1 GeV to 0.0005 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           ePairProd : Emin=    0 eV  Emax=  500 MeV  ModifiedMephi
+
+CoulombScat:  for e- XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  500 MeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  GoudsmitSaunderson : Emin=    0 eV  Emax=  100 MeV Nbins=120 100 eV  - 100 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  500 MeV Nbins=20 100 MeV - 500 MeV
+          StepLim=SafetyPlus Rfact=0.08 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+eIoni:  for e+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.2, 0.01 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             PenIoni : Emin=    0 eV  Emax=  100 keV
+        MollerBhabha : Emin=  100 keV Emax=  500 MeV  deltaVI
+
+eBrem:  for e+  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      LPM flag: 1 for E > 0.5 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=  500 MeV  AngularGen2BS
+
+ePairProd:  for e+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 0
+      Sampling table 4x1001; from 0.1 GeV to 0.0005 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           ePairProd : Emin=    0 eV  Emax=  500 MeV  ModifiedMephi
+
+annihil:  for e+ XStype:2 SubType=5 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  500 MeV
+
+CoulombScat:  for e+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  500 MeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV  deltaVI
+          BetheBloch : Emin=    2 MeV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+nuclearStopping:  for proton SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+ionIoni:  for GenericIon  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.001 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LindhardSorensen : Emin=    0 eV  Emax=  500 MeV  deltaVI
+
+nuclearStopping:  for GenericIon SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+ionIoni:  for alpha  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.02 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV  deltaVI
+          BetheBloch : Emin=7.9452 MeV Emax=  500 MeV  deltaVI
+
+nuclearStopping:  for alpha SubType=8 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping : Emin=    0 eV  Emax=    1 MeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for anti_proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV  deltaVI
+          BetheBloch : Emin=    2 MeV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for anti_proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for kaon+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+          BetheBloch : Emin=1.05231 MeV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for kaon+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for kaon-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV  deltaVI
+          BetheBloch : Emin=1.05231 MeV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for kaon- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+muIoni:  for mu+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV  deltaVI
+        MuBetheBloch : Emin=  200 keV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for mu+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+muIoni:  for mu-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV  deltaVI
+        MuBetheBloch : Emin=  200 keV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for mu- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+=======================================================
+======       ParticleHP Physics Parameters     ========
+=======================================================
+ UseOnlyPhotoEvaporation ? 0
+ SkipMissingIsotopes ?     0
+ NeglectDoppler ?          0
+ DoNotAdjustFinalState ?   0
+ ProduceFissionFragments ? 0
+ UseWendtFissionModel ?    0
+ UseNRESP71Model ?         0
+=======================================================
+
+@@@ G4ParticleHPInelastic instantiated for particle neutron data directory variable is G4NEUTRONHPDATA pointing to /Users/ramosmendj/Applications/GEANT4/G4DATA//G4NDL4.7/Inelastic
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for pi+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV  deltaVI
+          BetheBloch : Emin=297.505 keV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for pi+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 500 MeV, 21 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  500 MeV Nbins=140 100 eV  - 500 MeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=3 Llim=1 mm
+
+hIoni:  for pi-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 500 MeV in 140 bins
+      Lambda tables from threshold to 500 MeV, 20 bins/decade, spline: 1
+      StepFunction=(0.1, 0.05 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV  deltaVI
+          BetheBloch : Emin=297.505 keV Emax=  500 MeV  deltaVI
+
+CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  500 MeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for GenericIon
+
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for He3
+
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for alpha
+
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for anti_He3
+
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_alpha
+
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_hypertriton
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_lambda
+
+  Process: anti_lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_neutron
+
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_proton
+
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_triton
+
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for deuteron
+
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for kaon+
+
+  Process: kaon+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for kaon-
+
+  Process: kaon-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for lambda
+
+  Process: lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for mu-
+
+  Process: muMinusCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: neutronInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            Binary Cascade: 19.9 MeV ---> 6 GeV
+        Model:        NeutronHPInelastic: 0 eV  ---> 20 MeV
+     Cr_sctns:      NeutronHPInelasticXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+
+
+  Process: nCapture
+        Model:          NeutronHPCapture: 0 eV  ---> 20 MeV
+        Model:               nRadCapture: 19.9 MeV ---> 100 TeV
+     Cr_sctns:        NeutronHPCaptureXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+
+
+  Process: nFission
+        Model:          NeutronHPFission: 0 eV  ---> 20 MeV
+        Model:                G4LFission: 19.9 MeV ---> 100 TeV
+     Cr_sctns:        NeutronHPFissionXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:                    ZeroXS: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 19.5 MeV ---> 100 TeV
+        Model:          NeutronHPElastic: 0 eV  ---> 20 MeV
+     Cr_sctns:        NeutronHPElasticXS: 0 eV  ---> 20 MeV
+
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: pi+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for pi-
+
+  Process: pi-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: protonInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            Binary Cascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+
+---------------------------------------------------
+                           Hadronic Processes for sigma-
+
+  Process: sigma-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for triton
+
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+
+================================================================
+=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy                  100 keV
+Pre-compound excitation high energy                 30 MeV
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy                               10 eV 
+Min energy per nucleon for multifragmentation       200 GeV
+Limit excitation energy for Fermi BreakUp           20 MeV
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      1
+Time limit for long lived isomeres                  1 ns 
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+
+TOPAS run sequence complete.
+Particle source Demo: Total number of histories: 0
+
+Elapsed times:
+Parameter Reading : User=0.000000s Real=0.000671s Sys=0.000000s [Cpu=0.0%]
+    Initialization: User=0.080000s Real=0.077556s Sys=0.000000s [Cpu=103.2%]
+         Execution: User=0.510000s Real=0.543245s Sys=0.040000s [Cpu=101.2%]
+      Finalization: User=0.000000s Real=0.000004s Sys=0.000000s [Cpu=0.0%]
+             Total: User=0.59s Real=0.621476s Sys=0.04s
