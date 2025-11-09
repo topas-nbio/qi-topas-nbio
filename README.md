@@ -1,7 +1,7 @@
 # qc-topas-nbio
 The continuous integration testsuite for TOPAS-nBio
 
-Compatible with [TOPAS-nBio v3.0](https://opentopas.github.io).
+Compatible with [TOPAS-nBio v4.0](https://opentopas.github.io).
 
 ### Installation
 Testing is performed using [nrtest](https://github.com/davidchall/nrtest) and the TOPAS-specific plugins contained in [nrtest-topas](https://github.com/davidchall/nrtest-topas).
